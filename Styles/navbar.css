@@ -1,0 +1,22 @@
+ul {
+    width: 100%;
+    justify-content: end;    
+}
+
+.material-icons {
+    font-size: 30px !important;
+    color: gray !important;
+}
+
+nav {
+    background-color: rgb(231, 228, 228);
+    padding: 2%;
+}
+li{
+    padding: 0 2% 0 0;
+}
+
+a:hover {
+    background-color:#292b2c;
+    color: rgb(231, 228, 228) !important;
+}
