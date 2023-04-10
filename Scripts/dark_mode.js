@@ -9,3 +9,10 @@ function toggleDarkMode() {
     navbar.classList.toggle('bg-light');
     navbar.classList.toggle('navbar-light');
 }
+
+
+var myCarousel = document.querySelector('#carouselExampleControls')
+  var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 5000, // Intervalo de tiempo entre imágenes (ms)
+    wrap: true // Carrusel infinito
+  })

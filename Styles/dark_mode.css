@@ -9,10 +9,56 @@ body.dark-mode {
     color: white;
 }
 
-body.dark-mode a:hover {
+body.dark-mode .link:hover {
     background-color: rgb(231, 228, 228);
     color: #292b2c !important;
 }
+
+/* cambio de color principal */
+
+body.dark-mode .logo-principal {
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;    
+    margin: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 50px !important;
+    
+    
+}
+
+body.dark-mode .logo-secon {
+    box-shadow: 5px 5px 5px #bebebe , -5px -5px 6px rgba(193, 60, 82, 0.55);
+    text-align: center;
+    border-radius: 15px;
+    backdrop-filter: blur(15px) ;
+}
+
+body.dark-mode .principal span.material-icons{
+    color: white !important;
+    transition: all 0.5s;
+}
+
+body.dark-mode  .principal span.material-icons:hover{    
+    color: rgb(193, 60, 82) !important;
+}
+
+
+body.dark-mode h1 {    
+    color: rgba(173, 40, 62, 0.85);
+}
+
+body.dark-mode .carrousel .material-icons {
+    color: black !important;
+    font-size: 30px !important;
+}
+
+
+body.dark-mode .carousel-caption {
+    color: black !important;
+}
+body.dark-mode .carousel-caption:hover {
+    color: white !important;
+}
+
 /* Estilos de boton*/
 .btn-dark-mode {
     padding: 3px 0 !important;

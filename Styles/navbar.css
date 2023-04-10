@@ -3,20 +3,22 @@ ul {
     justify-content: end;    
 }
 
-.material-icons {
-    font-size: 30px !important;
-    color: gray !important;
+nav {
+    
+    padding: 1%;
 }
 
-nav {
-    background-color: rgb(231, 228, 228);
-    padding: 2%;
-}
 li{
     padding: 0 2% 0 0;
 }
 
-a:hover {
+nav img {
+    height: 90px;
+}
+
+
+.link:hover {
     background-color:#292b2c;
     color: rgb(231, 228, 228) !important;
 }
+

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Raleway:wght@400&family=Rubik+Pixels&display=swap');
+
+body, * {
+    font-family: 'Alkatra', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   
+    background-color: rgba(155, 155, 155, 0.38) !important;
+    transition: all 0.8s ease-in;
+}
+
+
+.principal .logo-principal {    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px !important;
+    transition: all 1s ease-in;
+}
+
+p {
+    text-align: justify;
+    padding: 1rem;
+}
+.logo-secon {
+    box-shadow: 5px 5px 5px black,
+    -5px -5px 6px rgba(193, 60, 82, 0.55);
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(193, 60, 82, 0.05);
+    backdrop-filter: blur(5px);
+    transition: all 0.5s ease-in;
+    perspective: 500px;
+    border-radius: 4px;
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform .5s;
+    
+}
+
+.principal span.material-icons{
+    display: flex;
+    justify-content: space-around;
+    font-size: 55px; 
+    padding: 0.5rem 0 0 1rem;  
+    color: black;
+    transition: all 0.5s;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-style: italic;
+    margin-top: 1rem !important;
+    
+}
+h1 {    
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold !important;
+    margin-top: 1.5rem !important;
+    color: rgba(193, 60, 82, 0.85);
+    font-size: xx-large;
+}
+
+.logo-secon p {
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+.principal span.material-icons:hover{    
+    color: rgb(193, 60, 82) !important;
+    transform: scale(1.1);
+    
+}
+
+.logo-secon:hover {
+    background-color: rgba(155, 155, 155, 0.38);    
+    transform: translateZ(10px) rotateX(10deg) rotateY(10deg);
+
+}
+
+.logo-principal:hover {
+    background-color: rgba(193, 60, 82, 0.2);
+    backdrop-filter: blur(1rem);
+    border-radius: 5px;
+}
+
+.carrousel {
+    display: grid !important;
+    height: 80%;
+    background-color:rgba(155, 155, 155, 0.38);
+    padding: 1rem;
+}
+
+.carrousel .header-carousel{    
+    display: flex;
+    justify-content: end;
+    color: rgb(193, 60, 82) !important;
+}
+.principal .header-carousel{
+    display: flex;
+    justify-content: start;
+    color: rgb(193, 60, 82) !important;
+}
+.carrousel img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px !important;
+}
+
+.carousel-caption {
+    text-align: center !important;;
+    border: 2px white solid;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(10px);
+    color: white !important;
+}
+
+.carousel-caption {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.carrousel .material-icons {
+    color: white !important;
+    font-size: 30px !important;
+}
+
+.carousel-caption a {
+    bottom: 2px;
+    right: 2px;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.carousel-caption:hover {
+    background-color: rgba(155, 155, 155, 0.38);
+    color: black !important;
+}
+
+
+@media (max-width: 999px) and (min-width: 600px) {
+
+    .items .material-icons {
+        font-size: 55px !important;
+        padding: 0.5rem 0 0 1rem;
+    }
+
+}
+
+@media screen and (max-width:600px){
+
+    
+    .row .principal{
+        margin: 0 !important;
+        padding: 0  !important;
+        font-size: 12px;
+        height: 100% !important;
+        scrollbar-gutter: 0 !important;       
+    }
+
+    .row .principal .logo-secon {
+        margin: 0 !important;
+        padding: 0  !important;
+        font-size: 5px;
+    }
+
+    .principal img {
+        width: 200px;
+    }
+
+    .logo-secon {
+        margin: 0 !important;
+        padding: 0  !important;
+        width: 80%;        
+        font-size: 12px !important;
+    }
+
+    .logo-secon p {
+        padding: 0.5rem !important;
+    }
+
+    .items .material-icons {
+        font-size: 40px !important;
+        padding: 0.5rem 0 0 1rem;
+    }
+
+    .carrousel img{
+        aspect-ratio: 4/4;
+    }
+}
