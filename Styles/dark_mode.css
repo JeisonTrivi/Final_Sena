@@ -59,6 +59,18 @@ body.dark-mode .carousel-caption:hover {
     color: white !important;
 }
 
+
+body.dark-mode .carrousel .material-icons {
+    color: black !important;
+    font-size: 30px !important;
+}
+
+body.dark-mode .carrousel span.material-icons {
+    border: black double 2px !important;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    background-color: white;
+}
 /* Estilos de boton*/
 .btn-dark-mode {
     padding: 3px 0 !important;
